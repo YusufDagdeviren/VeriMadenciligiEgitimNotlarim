@@ -82,4 +82,4 @@ kaynak:
 1-[https://aws.amazon.com/tr/what-is/linear-regression/](https://aws.amazon.com/tr/what-is/linear-regression/)
 
 2-[https://furkanalaybeg.medium.com/veri-madenciliği-ve-yöntemleri-d0e2fd238e44](https://furkanalaybeg.medium.com/veri-madencili%C4%9Fi-ve-y%C3%B6ntemleri-d0e2fd238e44)
-3-[Daha iyi notlar için :)](https://github.com/zehracakir/VeriMadenciligiNotlarim)
+3-[Daha iyi notlar için :)](https://github.com/zehracakir/VeriMadenciligiNotlarim)f
