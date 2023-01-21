@@ -59,19 +59,19 @@ Giriş değişkenleri(X) modelimizi eğittimiz ve test ettiğimiz verilerden olu
 
 Yukarıda görüldüğü üzere giriş değişkenleri arasında yüksek korelasyon vardır(1 e yakın olması durumu) ve modelimizi eğitirken biz giriş değişkenleri arasında yüksek korelasyon istemeyiz.Bu sorunu çözmek için yüksek korelasyon bulunan giriş değişkenlerinden sadece 1 tanesi tutar diğerlerini sileriz.
 
-1. **Giriş Değişkenlerinin Çıkış Değişkeni İle Düşük Korelasyona Sahip Olması:** Giriş değişkenlerinin çıkış değişkeni ile arasında ne kadar yüksek korelasyon varsa modelimiz o kadar iyi bir tahminde bulunur.
+2. **Giriş Değişkenlerinin Çıkış Değişkeni İle Düşük Korelasyona Sahip Olması:** Giriş değişkenlerinin çıkış değişkeni ile arasında ne kadar yüksek korelasyon varsa modelimiz o kadar iyi bir tahminde bulunur.
 
 ![Untitled](photos/photo1.png)
 
-1. **Sözel veriler:** Sözel verileri veri madenciliği adımında kullanamıyoruz bu yüzden sözel verileri çevirebiliyorsak sayısal verilere çevirmeliyiz.
+3. **Sözel veriler:** Sözel verileri veri madenciliği adımında kullanamıyoruz bu yüzden sözel verileri çevirebiliyorsak sayısal verilere çevirmeliyiz.
 
 ![Untitled](photos/photo2.png)
 
-1. **Null veriler:** İçi boş verileri duruma göre silmeli ya da ortalama veya medyan ile doldurmalıyız eğer min max değerleri arasında fark çoksa silmemiz daha doğru olur.
+4. **Null veriler:** İçi boş verileri duruma göre silmeli ya da ortalama veya medyan ile doldurmalıyız eğer min max değerleri arasında fark çoksa silmemiz daha doğru olur.
 
 ![Untitled](photos/photo3.png)
 
-1. **Aşırı Öğrenme:** Aşırı öğrenme modelimizin giriş değişkenlerinin çıkış değişkenleri ezberlemesidir %100 doğru tahmin etmesi iyi bir şeymis gibi gözüksede yeni veriler geldiğinde modelimiz çuvallatayacaktır sadece eğittimiz değişkenlerle çıkış değişkenlerini doğru tahmin eder. Aşırı öğrenmeyi engellemek için modelimizi budamamız gerekmektedir.
+5. **Aşırı Öğrenme:** Aşırı öğrenme modelimizin giriş değişkenlerinin çıkış değişkenleri ezberlemesidir %100 doğru tahmin etmesi iyi bir şeymis gibi gözüksede yeni veriler geldiğinde modelimiz çuvallatayacaktır sadece eğittimiz değişkenlerle çıkış değişkenlerini doğru tahmin eder. Aşırı öğrenmeyi engellemek için modelimizi budamamız gerekmektedir.
 
 ![Untitled](photos/photo4.png)
 
